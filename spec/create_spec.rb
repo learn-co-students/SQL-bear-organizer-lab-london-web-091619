@@ -7,6 +7,9 @@ describe 'creating bears table' do
 
   it "creates a bears table with a name field" do
     expect{@db.execute("SELECT name FROM bears;")}.to_not raise_exception
+    CREATE TABLE bears (
+      //columns here
+    );
   end
 
   it "creates a bears table with a age field" do
