@@ -8,6 +8,13 @@ describe 'populating the bears table' do
 
   it 'has 8 bears' do
     expect(@db.execute("SELECT COUNT(*) FROM bears;").flatten[0]).to eq(8)
+    Mr. Chocolate 
+    Rowdy 
+    Tabitha 
+    Sergeant 
+    Melissa
+    Grinch 
+    Wendy
   end
   
   it 'has an unnamed bear' do
